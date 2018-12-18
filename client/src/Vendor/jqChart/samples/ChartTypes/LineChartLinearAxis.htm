@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+    Line Chart on a Linear Axis Example - HTML5 jQuery Chart Plugin by jqChart
+</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jquery.jqChart.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/jquery.jqRangeSlider.css" />
+    <link rel="stylesheet" type="text/css" href="../../themes/smoothness/jquery-ui-1.10.4.css" />
+    <script src="../../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="../../js/jquery.mousewheel.js" type="text/javascript"></script>
+    <script src="../../js/jquery.jqChart.min.js" type="text/javascript"></script>
+    <script src="../../js/jquery.jqRangeSlider.min.js" type="text/javascript"></script>
+    <!--[if IE]><script lang="javascript" type="text/javascript" src="../../js/excanvas.js"></script><![endif]-->
+    
+    <script lang="javascript" type="text/javascript">
+        $(document).ready(function () {
+            $('#jqChart').jqChart({
+                title: { text: 'Line Chart' },
+                tooltips: { type: 'shared' },
+                animation: { duration: 1 },
+                series: [
+                    {
+                        type: 'line',
+                        title: 'Series 1',
+                        strokeStyle: '#418CF0',
+                        lineWidth: 2,
+                        data: [[1, 62], [2, 60], [3, 68],
+                               [4, 58], [5, 52], [6, 60], [7, 48]]
+                    },
+                    {
+                        type: 'line',
+                        title: 'Series 2',
+                        strokeStyle: '#FCB441',
+                        lineWidth: 2,
+                        data: [[1, 46], [2, 40], [3, 62],
+                               [4, 65], [5, 60], [6, 36], [7, 70]]
+                    }
+                ]
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div>
+        <div id="jqChart" style="width: 500px; height: 300px;"></div>
+    </div>
+</body>
+</html>

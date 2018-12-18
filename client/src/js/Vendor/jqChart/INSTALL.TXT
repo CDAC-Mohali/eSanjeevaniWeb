@@ -1,0 +1,23 @@
+jqChart jQuery Plugin
+
+===========================
+Installlation
+===========================
+
+http://www.jqchart.com/docs/jquery/#!/guide/JQChartGettingStarted
+
+============================
+Licensing
+============================
+This is our evaluation 30 days free trial license. We are very helpful to ALL customers, including trial customers and will gladly assist you with any problems you might have (send questions to support@jqchart.com). Trial product will show a tiny message pointing to our site every once in a while. 
+To remove that, just purchase the single developer versions and we will send you a download link to unrestricted versions. 
+You can purchase developer versions here (http://www.jqchart.com/Pricing.aspx)
+
+It's as simple as that, no cryptic settings in configs, no registry settings - complete license freedom (so you can use it on test/deployment servers, have QA look it at without licenses issues, etc)
+
+==
+
+Hope this helps. If you have any questions, just mail them to support@jqchart.com
+
+Regards,
+Dragan Matek /jqChart Inc/

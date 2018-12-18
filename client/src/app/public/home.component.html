@@ -1,0 +1,630 @@
+<html xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inititaive by ">
+    <meta name="keywords" content="Personal,Health,Records,Mangement,System">
+
+    <title>eSanjeevani</title>
+    <link href="/src/css/landing.css" rel="stylesheet" />
+    <link href="/src/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/src/css/style_new.css" rel="stylesheet" />
+    <link href="/src/css/font-awesome.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .phrmsrimg {
+            margin-top: -60px;
+            margin-left: 45px;
+        }
+
+        .bgsignup_phrms {
+            background-color: #337AB7;
+            color: #FFF;
+        }
+       
+       
+        .pnlhght
+        {
+            height: 300px !important;
+        }
+        .pnlhght1
+        {
+            height: 115px !important;
+        }
+        .nobdr
+        {
+            border: 0px solid transparent;
+        }
+        .hvr-grow
+        {
+            backface-visibility: hidden;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            display: inline-block;
+            transform: translateZ(0px);
+            transition-duration: 0.3s;
+            transition-property: transform;
+            vertical-align: middle;
+        }
+        .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active
+        {
+            transform: scale(1.1);
+        }
+        .ddimgtooltip
+        {
+            box-shadow: 3px 3px 5px #818181; /*shadow for CSS3 capable browsers.*/
+            -webkit-box-shadow: 3px 3px 5px #000000;
+            -moz-box-shadow: 3px 3px 5px #000000;
+            display: none;
+            position: absolute;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            z-index: 2000;
+            padding: 4px;
+            border-radius: 25px;
+        }
+        #cycler1
+        {
+            height: 5em;
+            overflow: hidden;
+        }
+        #cycler2
+        {
+            height: 5em;
+            overflow: hidden;
+        }
+      
+         * {
+    box-sizing: border-box;
+}
+
+
+        .zoom {
+            /*padding: 5px;*/
+            background: url('../../images/eSanjeevani.jpg') no-repeat center; /*url('../../images/eSanjeevani.jpg');*/
+            transition: transform .2s; /* Animation */
+            /*width: 200px;*/
+            height: 280px;
+            -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    
+    /*z-index:-5;*/
+            /*margin: 0 auto;*/
+        }
+
+.zoom:hover {
+    transform: scale(2.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   position:relative;
+   z-index:1000;
+}
+</style>
+
+
+   
+
+</head>
+<body>
+        <div class="no-padding headerhght">
+                <nav class="navbar navbar-default navbar-fixed-top hdrshadow">
+                    <div class="container-fluid no-padding hdrbgclr" style="height: 65px;">
+                        <div class="col-md-12 col-sm-12 headerhght">
+                            <div class="col-md-8 col-sm-8 zeropadmbl">
+                                <a href="/Home">
+                                    <img src="assets/images/MyHealthRecord.png" class="img-responsive" style="height: 62px;" />
+                                </a>
+                            </div>
+            
+                            <div class="col-md-4 col-sm-4 righthalf">
+                                <div class="col-md-12 col-sm-12 col-xs-12" style="margin-left:20%;margin-top:2%; ">
+            
+                                        <div class="col-md-2 col-sm-2 col-xs-2">
+            
+                                                <img src="assets/images/nationalemblemindia.png" class="img-responsive hdrmobile dgindiafullimg" width="40">
+                                        </div>
+            
+                                        <div class="col-md-4 col-sm-4 col-xs-4">
+            
+                                                <img src="assets/images/Digital_india_logo.png" class="img-responsive hdrmobile dgindiafullimg" width="102">
+                                            </div>
+            
+                                            
+                                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                                    <a href="/login">
+                                                        <button class="btn btn-primary btn-xs" style="line-height: 2.0;width : 5em">Sign In</button>
+                                                    </a>
+                
+                                                </div>
+            
+                                                
+            
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </nav>
+            </div>
+            
+    <div class="container-fluid no-padding">
+        <div id="myCarousel" class="carousel slide bnrhght" data-ride="carousel">
+            <ol class="carousel-indicators circlelists">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li class="" data-target="#myCarousel" data-slide-to="1"></li>
+                <li class="" data-target="#myCarousel" data-slide-to="2"></li>
+                <li class="" data-target="#myCarousel" data-slide-to="3"></li>
+                <li class="" data-target="#myCarousel" data-slide-to="4"></li>
+                @*<li class="" data-target="#myCarousel" data-slide-to="5"></li>*@
+            </ol>
+            <div class="carousel-inner" role="listbox">
+          
+                <div class="item active">
+                    <img src="assets/images/pic22.jpg" alt="PAPERLESS GOVERNANCE" class="img-responsive" style="width: 100%; margin: auto;">
+                    <div class="carousel-caption">
+                     
+                        <h1 class="shadowtxt h4txt"><b>Anytime Anywhere Anydevice</b></h1>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/images/pic33.jpg" alt="STORING RECORDS" class="img-responsive" style="width: 100%; margin: auto">
+                    <div class="carousel-caption">
+                        @*<h1 class="lesspad shadowtxt h1txt">Integrated with Diagnostic Devices</h1>*@
+                        <h1 class="shadowtxt h4txt"><b>Integrated with Medical Peripherals</b></h1>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/images/milestone1.jpg" alt="STORING RECORDS" class="img-responsive" style="width: 100%; margin: auto">
+                    <div class="carousel-caption">
+                        @*<h1 class="lesspad shadowtxt h1txt">Facts and Figures</h1>*@
+                        <h1 class="shadowtxt h4txt"><b>Milestones</b></h1>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/images/India map.jpg" alt="STORING RECORDS" class="img-responsive" style="width: 100%; margin: auto">
+                    <div class="carousel-caption">
+
+                        <h1 class="shadowtxt h4txt"><b>Implementations (National)</b></h1>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/images/worldmap.jpg" alt="STORING RECORDS" class="img-responsive" style="width: 100%; margin: auto">
+                    <div class="carousel-caption">
+
+                        <h1 class="shadowtxt h4txt"><b>Implementations (International)</b></h1>
+
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span> </a><a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span> </a>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 whitebg">
+            <h3 class="text-center" style="margin-top: 7px">Key Features</h3>
+            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+            <div class="col-md-2 col-sm-3  text-center">
+                <a class="links hvr-grow">
+                    <img src="assets/images/cons.png" class="img-responsive">
+                </a>
+                <p>Doctor to Doctor telemedicine</p>
+            </div>
+            <div class="col-md-2 col-sm-3  text-center">
+                <a class="links hvr-grow">
+                    <img src="assets/images/Dashboard1.png" class="img-responsive">
+                </a>
+                <p>Comprehensive Dashboard </p>
+            </div>
+            <div class="col-md-2 col-sm-3  text-center">
+                <a class="links hvr-grow">
+                    <img src="assets/images/di2.png" class="img-responsive">
+                </a>
+                <p>Integrated Medical Peripherals</p>
+            </div>
+
+            <div class="col-md-2 col-sm-3 text-center">
+                <a class="links hvr-grow">
+                    <img src="assets/images/dicom3.png" class="img-responsive">
+                </a>
+                <p>Dicom Viewer</p>
+            </div>
+            <div class="col-md-2 col-sm-2  text-center">
+                <a class="links hvr-grow">
+                    <img src="assets/images/vcd.png" class="img-responsive">
+                </a>
+                <p>Video Conferencing</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 panelsrow">
+            <div class="container">
+                <div class="col-md-4 col-sm-4">
+                    <div class="panel panel-primary nobdr">
+                        <div class="panel-heading">
+                            eSanjeevani Statistics
+                        </div>
+                        <div class="panel-body text-center pnlhght">
+                          
+                            <p style="font-size: 2vw; padding: 8px;">
+
+
+                                <strong><span id="documents"><font color="black">745</font></span></strong> <span style="font-size: 20px;"><font color="black"> Teleconsultations</font></span>
+                            </p>
+                            <br><br />
+                         
+                            <p style="font-size: 2vw; padding: 8px;">
+                                <strong><span id="documents"><font color="black">90+ </font></span></strong> <span style="font-size: 20px;"><font color="black"> Locations in India</font></span>
+                            </p>
+                            <br><br />
+                            <p style="font-size: 2vw; padding: 8px;">
+                                <strong><span id="documents"><font color="black">39+ </font></span></strong> <span style="font-size: 20px;"><font color="black"> Locations overseas</font></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="complete-content">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="panel panel-primary nobdr">
+                            <div class="panel-heading">
+                                eSanjeevani Brochure
+                            </div>
+
+                            <div class="panel-body text-center pnlhght" style="text-align:center">
+
+                                <div align="center"><img src="assets/images/eSanjeevani.jpg"  onclick="showbaner()" height="280" width="220" style="cursor: pointer;"></div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="complete-content">
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="panel panel-primary nobdr">
+                            <div class="panel-heading">Our Products</div>
+                            <div class="panel-body text-center pnlhght">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="http://myhealthrecord.nhp.gov.in"><img src="assets/images/myHealthRecordlogo.png" class="img-responsive" width="50"></a>
+                                    </div>
+                                    <div class="col-md-9 text-left">
+                                        <h4><a href="http://myhealthrecord.nhp.gov.in">MyHealthRecord</a></h4>
+                                    </div>
+                                </div>
+                                <br />
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="http://mswasthya.in"><img src="assets/images/mswasthya.png" class="img-responsive" width="50"></a>
+                                    </div>
+                                    <div class="col-md-9 text-left">
+                                        <h4><a href="http://mswasthya.in">mSwasthya</a></h4>
+                                    </div>
+                                </div>
+                                <br /><br />
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="http://103.49.152.25/BBMS/login.aspx"><img src="assets/images/logo2.png" class="img-responsive" width="50"></a>
+                                    </div>
+
+                                    <div>
+                                        <a href="http://103.49.152.25/BBMS/login.aspx"><img src="assets/images/bbms.png" class="img-responsive"></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <div style="clear: both"></div>
+            <div style="clear: both"></div>
+            <div class="col-md-12 col-sm-12 col-xs-12 bgfooter" style="background-color: white">
+                +
+                <div class="row ">
+
+                    <div class="col-md-5 col-sm-5 text-center">
+                    </div>
+                    <div class="col-md-7 col-sm-7 text-center">
+                        <div class="titlefooter"><strong></strong></div>
+
+                   
+                    </div>
+                </div>
+                <div class="container">
+
+
+
+                    <div class="row" style="font-size: 12px">
+
+                        <div class="col-sm-2">
+                            <p style="vertical-align: middle; margin-top: 25px;">
+                                <a href="http://esanjeevani.in/" target="_blank">
+                                    <img alt="" src="assets/images/logo1.png" style="background-color:white;width: 96%;" class="img-responsive pull-right" width="60"  title="eSanjeevani" />
+                                </a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 ftrgap">
+                            <ul class="ftrlists">
+
+                                <li>
+                                    <p size="5" style="color: black; text-align: left;line-height: 1.5em;">
+                                        Government of India's oldest, indigenous low cost telemedicine technology with in-built video conferencing, seamless import of over 15 parameters from diagnostic device(s).
+
+                                    </p>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                        <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-3 col-sm-3 ftrgap">
+                            <ul class="ftrlists">
+                                <li>
+                                    <p size="5" style="color:black; text-align: right;line-height: 1.5em;">
+                                        eSanjeevani has been designed & developed by <a href="http://cdac.in/" style="color:black;" target="_blank">Centre For Development of Advanced Computing (C-DAC),</a> a premier R&D organization of the
+                                        <a href="http://meity.gov.in/" style="color:black;" target="_blank">Ministry of Electronics & Information Technology (MeitY), Government of India</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-1">
+                            <p style="vertical-align: middle; margin-top: 25px;">
+                                <a href="http://cdac.in/" target="_blank">
+                                    <img src="assets/images/Indexcdac.jpg" class="img-responsive pull-right" width="60">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row ">
+
+                        <div class="col-md-5 col-sm-5 text-center">
+                        </div>
+
+
+
+                        <div class="col-md-12 col-sm-12 text-center" style="margin-left:1.2%">
+
+                         
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <hr>
+
+            </div>
+
+         
+            <div style="display: block;text-align: center;background-color:#000;margin:auto;">
+
+
+                <a target="_blank" href="http://mohfw.nic.in/">
+                    <img title="MoHFW(External Site that opens in a new window)" alt="MoHFW" src="assets/images/mohfw.png" />
+                </a>
+
+                <a target="_blank" href="http://www.digitalindia.gov.in" class="footer-logo">
+                    <img title="Digital India (External Site that opens in a new window)" alt="Digital India" src="assets/images/digital-india-logofooter.png" width="104" />
+                </a>
+
+                <a target="_blank" href="http://data.gov.in" class="footer-logo">
+                    <img title="Data Portal (External Site that opens in a new window)" alt="Data Portal" src="assets/images/data-gov-logo.png" />
+                </a>
+
+                <a target="_blank" href="https://india.gov.in" class="footer-logo">
+                    <img title="National Portal of India (External Site that opens in a new window)" alt="National Portal of India" src="assets/images/india-gov-logo.png" />
+                </a>
+
+                <a target="_blank" href="https://www.mygov.in" class="footer-logo">
+                    <img title="MyGov (External Site that opens in a new window)" alt="MyGov" src="assets/images/mygov-footer-logo.png" />
+                </a>
+
+                <a title="MeitY (External Site that opens in a new window)" alt="MeitY" target="_blank" href="http://meity.gov.in/" class="footer-logo">
+                    <img title="Meity(External Site that opens in a new window)" alt="Meity" src="assets/images/Meity_logo.png" />
+                </a>
+
+
+            </div>
+        </div>
+
+
+
+        <script type="text/javascript">
+
+            function sleep(delay) {
+                var start = new Date().getTime();
+    
+    
+                while (new Date().getTime() < start + delay);
+            }
+    
+            function isLoaded() {
+                return (document.readyState === 'complete')
+    
+            }
+    
+            function cycle($item, $cycler, $b) {
+    
+                if ($b == 0) {
+    
+                    setTimeout(cycle, 5000, $item.stop(), $cycler);
+                }
+                else {
+    
+                    setTimeout(cycle, 2000, $item.next(), $cycler);
+    
+                    $item.slideUp(2000, function() {
+                        $b = 1;
+                        $item.appendTo($cycler).show();
+                    });
+                }
+            }
+    
+    
+    
+    
+    
+            $(document).ready(function() {
+                $a = 0;
+                cycle($('#cycler1 div:first'), $('#cycler1'), $a);
+                cycle($('#cycler2 div:first'), $('#cycler2'), $a);
+            });
+    
+    
+    
+            function showbaner() {
+    
+    
+                window.open("/images/eSanjeevani.jpg");
+    
+            }
+        </script>
+    
+       <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <style>
+            .titlefooter {
+                color: #D9D8D8;
+                font-size: 17px;
+                margin-bottom: 14px;
+                margin-left: 10px;
+                margin-top: 5px;
+            }
+        </style>
+    </div>
+
+    <style>
+        .phrmsrimg {
+            margin-top: -60px;
+            margin-left: 45px;
+        }
+
+        .bgsignup_phrms {
+            background-color: #337AB7;
+            color: #FFF;
+        }
+
+        .bgfooter {
+            background-color: #192B39;
+            color: #FFF;
+        }
+
+        .footer-logo {
+            border-left: 1px solid #28282A;
+            box-sizing: border-box;
+            display: inline-block;
+            list-style: none;
+            margin-bottom: 7px;
+            padding: 10px 10px;
+            vertical-align: middle;
+        }
+
+        .headerhght {
+            height: 60px;
+        }
+
+        .hdrshadow {
+            box-shadow: 0 1px 5px #ccc;
+        }
+
+        .hdrbgclr {
+            background-color: #fff;
+        }
+
+        .hdrnavcustom {
+            background-color: #fff;
+            margin-top: -20px;
+            margin-right: -43px;
+            float: right;
+        }
+
+        .titlefooter {
+            color: #D9D8D8;
+            font-size: 17px;
+            margin-bottom: 14px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        /* Validation */
+
+        .form-control.error {
+            border-color: #e74c3c !important;
+        }
+
+        label.error,
+        label span.error {
+            color: #e74c3c;
+            margin: 5px 0 0 0;
+            font-weight: 400;
+        }
+
+        label span.error {
+            margin-left: 5px;
+        }
+
+        label.error:before {
+            content: "\f071";
+            font-family: 'FontAwesome';
+            margin: 0 4px;
+        }
+        /*Validation Custom*/
+
+        .input-validation-error {
+            border-color: #e74c3c !important;
+        }
+
+        span.field-validation-error {
+            margin-left: 5px;
+            color: #e74c3c;
+            margin: 5px 0 0 0;
+            font-weight: 400;
+        }
+
+            span.field-validation-error:before {
+                content: "\f071";
+                font-family: 'FontAwesome';
+                margin: 0 4px;
+            }
+
+        .whitetext {
+            color: #fff !important;
+        }
+
+        .txtwarning {
+            color: #FF3E3E;
+            font-size: 12px;
+        }
+
+        .ftrlists {
+            display: flex !important;
+            list-style: none !important;
+            text-align: center !important;
+        }
+    </style>
+    
+
+   
+
+</body>
+
+</html>

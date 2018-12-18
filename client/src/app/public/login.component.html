@@ -1,0 +1,366 @@
+
+
+<style type="text/css">
+    .phrmsrimg {
+        margin-top: -70px;
+        margin-left: 45px;
+    }
+
+    .bgsignup_phrms {
+        background-color: #337AB7;
+        color: #FFF;
+    }
+
+    .headerhght {
+        height: 60px;
+    }
+
+    .hdrshadow {
+        box-shadow: 0 1px 5px #ccc;
+    }
+
+    .hdrbgclr {
+        background-color: #fff;
+    }
+
+    .hdrnavcustom {
+        background-color: #fff;
+        margin-top: -20px;
+        margin-right: -43px;
+        float: right;
+    }
+
+    .btndoclogin {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 10px !important;
+    }
+
+    .doclabel {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 0px !important;
+    }
+</style>
+
+<div class="no-padding headerhght">
+    <nav class="navbar navbar-default navbar-fixed-top hdrshadow">
+        <div class="container-fluid no-padding hdrbgclr" style="height: 65px;">
+            <div class="col-md-12 col-sm-12 headerhght">
+                <div class="col-md-8 col-sm-8 zeropadmbl">
+                    <a href="/Home">
+                        <img src="assets/images/MyHealthRecord.png" class="img-responsive" style="height: 62px;" />
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-4 righthalf">
+                    <div class="col-md-12 col-sm-12 col-xs-12" style="margin-left:20%;margin-top:2%; ">
+
+                            <div class="col-md-2 col-sm-2 col-xs-2">
+
+                                    <img src="assets/images/nationalemblemindia.png" class="img-responsive hdrmobile dgindiafullimg" width="40">
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+
+                                    <img src="assets/images/Digital_india_logo.png" class="img-responsive hdrmobile dgindiafullimg" width="102">
+                                </div>
+
+                                
+                                <div class="col-md-2 col-sm-2 col-xs-2">
+                                        <a href="/Home">
+                                            <button class="btn btn-primary btn-xs" style="line-height: 2.0;width : 5em">Home</button>
+                                        </a>
+    
+                                    </div>
+
+                                    
+
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+</div>
+
+
+<link href="/src/css/landing.css" rel="stylesheet" />
+<link href="/src/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/src/css/style_new.css" rel="stylesheet" />
+<link href="/src/css/font-awesome.css" rel="stylesheet" />
+
+<div class="container-fluid no-padding loginpage">
+    <div class="section">
+        <div class="center-block">
+            <div class="col-md-12 col-sm-12 col-xs-12 panelsrow">
+                <div class="baseline">
+                    <div class="row">
+             
+                        <div class="col-md-6 col-sm-10 mblcntr" style="margin-left:28%;">
+                            <h2 class="bluetxt login-header"></h2>
+                            <h2 class="bluetxt login-header"></h2>
+                            <div class="login-width70 shadow gray" style="background-color:#ffffff ">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="black top10 bot5"><strong>Sign In to your account</strong></p>
+                                    </div>
+                                </div>
+                              
+                                    <div style="clear: both;"></div>
+                                    <p></p>
+                             
+                                    <div class="row gap">
+                                        <div class="col-md-12 col-sm-12">
+                                            <div class="col-md-3 col-sm-3 left20"><strong>Username</strong></div>
+                                            <div class="col-md-9 col-sm-9 right5">
+                                                <input  placeholder="User Name" class="form-control" [(ngModel)]="username" required >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gap">
+                                        <div class="col-md-12 col-sm-12">
+                                            <div class="col-md-3 col-sm-3 left20"><strong>Password</strong></div>
+                                            <div class="col-md-9 col-sm-9 right5">
+                                             
+                                                <input  placeholder="Password" class="form-control" [(ngModel)]="password" >
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="row gap">
+                                        <div class="col-md-12 col-sm-12">
+                                            <div class="col-md-3 col-sm-3"></div>
+
+                                            <div class="col-md-3 col-sm-3">
+
+                                                    <button class="btn btn-success btn-xs" value="Sign In" tabindex="4" (click)="login()" color="primary">Login</button>
+  
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gap">
+
+                                        <div class="col-md-12 col-sm-12">
+
+                                            <div class="col-md-2 col-sm-2 ">
+                                            </div>
+                                            <div class="col-md-5 col-sm-5 ">
+                                                <div style="padding-top:5px;">
+                                                    <a class="txtwarning font12" href="#">
+                                                        Forgot password?
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-5 col-sm-5 ">
+                                                <div style="padding-top:5px;">
+                                                    <a class="txtwarning font12" href="/LoginOTP">
+                                                        Login By OTP
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btmgap"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div style="clear: both"></div>
+<div style="clear: both"></div>
+<div class="col-md-12 col-sm-12 col-xs-12 bgfooter" style="background-color: white">
+
+    <div class="row ">
+
+        <div class="col-md-5 col-sm-5 text-center">
+        </div>
+        <div class="col-md-7 col-sm-7 text-center">
+            <div class="titlefooter"><strong></strong></div>
+
+
+        </div>
+    </div>
+    <div class="container">
+
+
+
+        <div class="row" style="font-size: 12px">
+
+            <div class="col-sm-2">
+                <p style="vertical-align: middle; margin-top: 25px;">
+                    <a href="http://esanjeevani.in/" target="_blank">
+                        <img alt="" src="assets/images/logo1.png" style="background-color:white;width: 96%;" class="img-responsive pull-right" width="60" title="eSanjeevani" />
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-md-3 col-sm-3 ftrgap">
+                <ul class="ftrlists">
+
+                    <li>
+                        <p size="5" style="color: black; text-align: left;line-height: 1.5em;">
+                            Government of India's oldest, indigenous low cost telemedicine technology with in-built video conferencing, seamless import of over 15 parameters from diagnostic device(s).
+
+
+                        </p>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-3 col-sm-3 ftrgap">
+                <ul class="ftrlists">
+                    <li>
+                        <p size="5" style="color:black; text-align: right;line-height: 1.5em;">
+                            eSanjeevani has been designed & developed by <a href="http://cdac.in/" style="color:black;" target="_blank">Centre For Development of Advanced Computing (C-DAC),</a> a premier R&D organization of the
+                            <a href="http://meity.gov.in/" style="color:black" target="_blank">Ministry of Electronics & Information Technology (MeitY), Government of India</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-1">
+                <p style="vertical-align: middle; margin-top: 25px;">
+                    <a href="http://cdac.in/" target="_blank">
+                        <img src="assets/images/Indexcdac.jpg" class="img-responsive pull-right" width="60">
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="row ">
+
+            <div class="col-md-5 col-sm-5 text-center">
+            </div>
+
+
+
+            <div class="col-md-12 col-sm-12 text-center" style="margin-left:1.2%">
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <hr>
+
+</div>
+
+
+<div style="display: block;text-align: center;background-color:#000;margin:auto;">
+
+
+    <a target="_blank" href="http://mohfw.nic.in/">
+        <img title="MoHFW(External Site that opens in a new window)" alt="MoHFW" src="assets/images/mohfw.png" />
+    </a>
+
+    <a target="_blank" href="http://www.digitalindia.gov.in" class="footer-logo">
+        <img title="Digital India (External Site that opens in a new window)" alt="Digital India" src="assets/images/digital-india-logofooter.png" width="104" />
+    </a>
+
+    <a target="_blank" href="http://data.gov.in" class="footer-logo">
+        <img title="Data Portal (External Site that opens in a new window)" alt="Data Portal" src="assets/images/data-gov-logo.png" />
+    </a>
+
+    <a target="_blank" href="https://india.gov.in" class="footer-logo">
+        <img title="National Portal of India (External Site that opens in a new window)" alt="National Portal of India" src="assets/images/india-gov-logo.png" />
+    </a>
+
+    <a target="_blank" href="https://www.mygov.in" class="footer-logo">
+        <img title="MyGov (External Site that opens in a new window)" alt="MyGov" src="assets/images/mygov-footer-logo.png" />
+    </a>
+
+    <a title="MeitY (External Site that opens in a new window)" alt="MeitY" target="_blank" href="http://meity.gov.in/" class="footer-logo">
+        <img title="Meity(External Site that opens in a new window)" alt="Meity" src="assets/images/Meity_logo.png" />
+    </a>
+
+
+</div>
+
+<style>
+    .titlefooter {
+        color: #D9D8D8;
+        font-size: 17px;
+        margin-bottom: 14px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+
+
+    .phrmsrimg {
+        margin-top: -60px;
+        margin-left: 45px;
+    }
+
+    .bgsignup_phrms {
+        background-color: #337AB7;
+        color: #FFF;
+    }
+
+    .bgfooter {
+        background-color: #192B39;
+        color: #FFF;
+    }
+
+    .footer-logo {
+        border-left: 1px solid #28282A;
+        box-sizing: border-box;
+        display: inline-block;
+        list-style: none;
+        margin-bottom: 7px;
+        padding: 10px 10px;
+        vertical-align: middle;
+    }
+
+    .headerhght {
+        height: 60px;
+    }
+
+    .hdrshadow {
+        box-shadow: 0 1px 5px #ccc;
+    }
+
+    .hdrbgclr {
+        background-color: #fff;
+    }
+
+    .hdrnavcustom {
+        background-color: #fff;
+        margin-top: -20px;
+        margin-right: -43px;
+        float: right;
+    }
+
+    .titlefooter {
+        color: #D9D8D8;
+        font-size: 17px;
+        margin-bottom: 14px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+</style>
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/semantic/dist/semantic.min.css"/>
+    <script type="text/javascript" src="bower_components/semantic/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="dist/jquery-duration-picker.min.js"></script>
+    <link rel="stylesheet" href="dist/jquery-duration-picker.rtl.min.css"/>
+    <title>jQuery Duration Picker</title>
+    <style>
+        h3.ui.center.header {
+            margin-top: 2em;
+            padding: 2em 0em;
+        }
+    </style>
+</head>
+<body lang="ar">
+
+<h3 class="ui center aligned header">Jquery Duration Picker</h3>
+
+<div class="ui container">
+    <div class="ui input">
+        <input type="text" placeholder="Pick Duration..." id="dp1" value="1450">
+    </div>
+    <br/><br/>
+    <div lang="fa" class="ui input" style="font-family: 'B Nazanin', sans-serif; font-size: 16px;">
+        <input type="text" placeholder="Pick Duration..." id="dp2" value="100000">
+    </div>
+    <br/><br/>
+    <div class="ui input">
+        <input type="text" placeholder="Pick Duration..." disabled id="dp3" value="1450">
+    </div>
+</div>
+
+
+<script>
+    function persian_digits(str) {
+        str = '' + str;
+        var englishDigits = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+                persianDigits = ["۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹", "۰"];
+        for (var i = 0, numbersLen = englishDigits.length; i < numbersLen; i++) {
+            str = str.replace(new RegExp(englishDigits[i], "g"), persianDigits[i]);
+        }
+        return str;
+    }
+    $('#dp1').duration_picker();
+    $('#dp2').duration_picker({
+        lang: 'fa',
+        formatter: persian_digits
+    });
+    $('#dp3').duration_picker();
+    $('#dp3').duration_picker();
+</script>
+
+</body>
+</html>
